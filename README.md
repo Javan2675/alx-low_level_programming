@@ -1,1 +1,1 @@
-My C readme
+Working with functions and nested loops
