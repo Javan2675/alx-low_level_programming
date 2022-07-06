@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- *main -> checks for lower case characters
+ *_islower -> checks for lower case characters
+ *@c : a character
  *
- *Return: 0
- *
- * Returns: 1 and 0 depending on the case
+ * Return: 1 and 0 depending on the case
  */
-int main(void)
+int _islower(int c)
 {
 
 	return (c >= 'a' && c <= 'z');
