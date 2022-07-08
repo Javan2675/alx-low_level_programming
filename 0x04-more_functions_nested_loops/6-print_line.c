@@ -4,7 +4,7 @@
  * print_line - Draws a line
  * @n: integer
  */
-void print_line(int n);
+void print_line(int n)
 {
 	int i;
 
