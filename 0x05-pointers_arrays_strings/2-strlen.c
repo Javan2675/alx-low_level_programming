@@ -5,10 +5,10 @@
  *@s: a character
  *Return: 0
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	char *s
 
-		printf("length of string: %d\n", _strlen(s));
-	Return (0);
+	printf("length of string: %d\n", _strlen(s));
+	Return(0);
 }
