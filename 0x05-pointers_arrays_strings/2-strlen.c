@@ -7,8 +7,14 @@
  */
 int _strlen(char *s)
 {
-	char *s
+	int x;
 
-	printf("length of string: %d\n", _strlen(s));
-	Return(0);
+	x = 0;
+
+	while (s[x] != '\0')
+	{
+		x++;
+	}
+
+	return (x);
 }
