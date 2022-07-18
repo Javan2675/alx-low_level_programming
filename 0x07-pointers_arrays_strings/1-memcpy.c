@@ -7,7 +7,7 @@
  *
  * @dest: point of string
  *
- * @n: parameter
+ * @n: parameters
  *
  * Return: dest
  */
