@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * *_memcpy - function that fills the first n bytes
+ * *_memcpy - function that copies
  *
- * @src: src ptr
+ * @src: string
  *
- * @dest: dest ptr
+ * @dest: point of string
  *
  * @n: parameter
  *
@@ -16,9 +16,12 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	int i;
 
-	for (i = 0; i < n; i++)
+	i = 0;
+
+	while (i < n)
 	{
-		src[i] = dest[i];
+		dest[i] = src[i];
+		i++;
 	}
 	return (dest);
 }
