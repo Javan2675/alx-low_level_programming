@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * strlength - Prints the length of a string
