@@ -1,23 +1,13 @@
-#include "main.h"
-#include <stdlib.h>
+#ifndef MAIN_H
+#define MAIN_H
 
-/**
- * free_grid - function
- *
- * @grid: Parameter
- *
- * @height: Parameter
- *
- * Return: 0
- */
+int _putchar(char c);
+char *create_array(unsigned int size, char c);
+char *_strdup(char *str);
+char *_str_concat(char *s1, char *s2);
+int **alloc_grid(int width, int height);
+void free_grid(int **grid, int height);
+char *argstorstr(int ac, char **av);
+char **strtow(char *str);
 
-void free_grid(int **grid, int height)
-{
-	int i;
-
-	for (i = 0; i < height; i++)
-	{
-		free(grid[i]);
-	}
-	free(grid);
-}
+#endif
