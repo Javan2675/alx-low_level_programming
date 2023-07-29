@@ -4,10 +4,10 @@
 #include <string.h>
 
 /**
- * print_list - prints all elements 
- * @h: singly linked list
- * Return: number of nodes 
- */
+* print_list - prints all elements
+* @h: singly linked list
+* Return: number of nodes
+*/
 size_t print_list(const list_t *h)
 {
 	int count = 0;
